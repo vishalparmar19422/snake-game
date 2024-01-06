@@ -34,13 +34,13 @@ body {
 }
 
 .snakeHead{
-  background-image: url("./img/snake.png");
+  background-color: bisque;
   background-repeat: no-repeat;
   background-size: 100px 100px;
   background-position:center;
   border-radius: 15px;
   z-index: 99;
-  transform: scale(1.5);
+  transform: scale(1);
   
 }
 .snakeBody{
@@ -57,3 +57,26 @@ background-repeat: no-repeat;
 background-size: 50px 60px;
 }
 
+.score{
+  position: fixed;
+  color: white;
+  left: 60%;
+  top: 3%;
+}
+
+.bigScore{
+color: white;
+position: fixed;
+top: 40%;
+left: 33%;
+font-size: 170px;
+
+}
+.h2{
+  visibility: hidden;
+    color: white;
+    position: fixed;
+    font-size: 50px;
+    top:60%;
+    left: 35%;
+}

@@ -22,8 +22,8 @@ body {
 }
 
 .board{
-    height: 1000px;
-    width:900px;
+    height: 800px;
+    width:700px;
     border: solid 1px white;
     display: grid;
     grid-template-columns: repeat(18,1fr);
@@ -54,7 +54,7 @@ body {
 .food{
 background-image: url("./img/apple.png");
 background-repeat: no-repeat;
-background-size: 50px 60px;
+background-size: 40px 45px;
 }
 
 .score{
@@ -67,9 +67,10 @@ background-size: 50px 60px;
 .bigScore{
 color: white;
 position: fixed;
-top: 40%;
+top: 30%;
 left: 33%;
-font-size: 170px;
+font-size: 150px;
+text-align: center;
 
 }
 .h2{
@@ -77,6 +78,7 @@ font-size: 170px;
     color: white;
     position: fixed;
     font-size: 50px;
-    top:60%;
-    left: 35%;
+    top:50%;
+    left: 40%;
+    text-align: center;
 }
